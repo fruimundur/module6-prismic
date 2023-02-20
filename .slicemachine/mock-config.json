@@ -1,0 +1,21 @@
+{
+  "_cts": {
+    "homepage": {},
+    "blogpost": {},
+    "quote": {}
+  },
+  "slices": {
+    "HeroSlice": {
+      "default": {
+        "items": {},
+        "primary": {}
+      }
+    },
+    "BlogPost": {},
+    "Post": {
+      "default": {
+        "items": {}
+      }
+    }
+  }
+}
