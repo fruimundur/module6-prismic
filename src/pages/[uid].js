@@ -1,6 +1,6 @@
 import * as prismicH from '@prismicio/helpers'
 import { SliceZone } from '@prismicio/react'
-import { createClient, linkResolver } from '../../../prismicio'
+import { createClient, linkResolver } from '../../prismicio'
 import { components } from '../../slices/index'
  
 const Page = ({ page, navigation, settings }) => {
