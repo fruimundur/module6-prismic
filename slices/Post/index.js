@@ -16,13 +16,12 @@ const BlogPost = ({ slice }) => (
       <img src={slice.primary.image.url} alt={slice.primary.image.alt} />
     </span>
     <div>
-    {console.log(slice.items)}
       {slice?.items?.map((item, i) => (
         <PrismicLink field={item.openquotebutton} key={i}>
           {item.openquotebuttontext}
         </PrismicLink>
       ))}
-    </div>
+    </div> 
     <style jsx>{`
         section {
           max-width: 820px;

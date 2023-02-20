@@ -13,7 +13,7 @@ export default Page
 export async function getStaticProps({ params, previewData }) {
   const client = createClient({ previewData })
   console.log(params)
-  const page = await client.getByUID('QuotePage', params.uid)
+  const page = await client.getByUID('quote', params.uid)
   return {
     props: {
       page

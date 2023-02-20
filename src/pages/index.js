@@ -1,5 +1,5 @@
 import { SliceZone } from '@prismicio/react'
-import { createClient } from '../../../prismicio'
+import { createClient } from '../../prismicio'
 import { components } from '../../slices'
  
 const Page = ({ page, navigation, settings }) => {
